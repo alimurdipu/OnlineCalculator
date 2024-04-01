@@ -9,44 +9,48 @@
     height: 100vh;
     display: flex;
     justify-content: center;
-    align-content: center;
+    align-items: center;
     background-color: rgb(49, 73, 74);
-
 }
 
 .calculator{
     width: 400px;
-    height: 450px;
-    padding: 6px;
+    height: 480px;
+    padding: 8px;
     display: flex;
     justify-content: center;
-    align-content: center;
-
+    align-items: center;
+    /* border: 2px solid red; */
 }
 .inputbtn{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-content: center;
+    align-items: center;
+    width: 100%;
     gap: 8px;
     background-color: rgb(44, 70, 109);
     padding: 20px;
+    box-shadow: 1px 1px 3px 3px rgba(255, 255, 255, 0.265);
+
 }
 .input{
     width: 100%;
-    padding: 20px;
+    padding: 14px;
     background: white;
     color: rgb(148, 148, 243);
     outline: 0;
     font-size: 20px;
+    font-weight: bold;
 }
 
 .allbtn{
+    width: 80%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-content: center;
-    gap: 4px;
+    gap: 14px;
 }
 
 button{
@@ -57,6 +61,14 @@ button{
     background-color: rgb(105, 49, 133);
     box-shadow: 3px 1px 3px 0px azure;
     cursor: pointer;
+    /* gap: 8px; */
+}
+
+.btncss{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
 }
 
 .equal{
