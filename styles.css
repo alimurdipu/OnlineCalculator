@@ -22,6 +22,7 @@
     align-items: center;
     /* border: 2px solid red; */
 }
+
 .inputbtn{
     display: flex;
     flex-direction: column;
@@ -32,8 +33,8 @@
     background-color: rgb(44, 70, 109);
     padding: 20px;
     box-shadow: 1px 1px 3px 3px rgba(255, 255, 255, 0.265);
-
 }
+
 .input{
     width: 100%;
     padding: 14px;
@@ -61,7 +62,7 @@ button{
     background-color: rgb(105, 49, 133);
     box-shadow: 3px 1px 3px 0px azure;
     cursor: pointer;
-    /* gap: 8px; */
+    font-weight: bold;
 }
 
 .btncss{
